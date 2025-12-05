@@ -1,0 +1,12 @@
+
+.center-items{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-grow-none{
+    flex-grow: 0 !important;
+}
