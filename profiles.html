@@ -42,6 +42,15 @@
     </nav>
     <div class="container">
       <h1>Les Profiles</h1>
+      <div class="row mb-4">
+        <input
+          onkeyup="filter()"
+          class="form-control"
+          type="text"
+          placeholder="Rechercher un utilisateur par son nom"
+          id="search"
+        />
+      </div>
       <div class="row row-cols-4 text-center" id="les-profiles"></div>
     </div>
     <script src="js/les-profiles.js" type="text/javascript"></script>
